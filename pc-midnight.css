@@ -1,5 +1,8 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+
 :root {
-	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 	/* amount of spacing and padding */
 	--spacing: 12px;
 	/* radius of round corners */
