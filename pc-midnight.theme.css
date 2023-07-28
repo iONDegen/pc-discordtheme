@@ -1,0 +1,63 @@
+/**
+ * @name pc-midnight
+ * @description An edited Midnight theme.
+ * @author iON & refact0r
+ * @version 1.5.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
+
+@import url('https://raw.githubusercontent.com/iONDegen/pc-discordtheme/main/pc-midnight.css?token=GHSAT0AAAAAAB7KB5J2MUPTUTUEVJT5LSY6ZGDLPEQ');
+
+/* change colors and variables here */
+:root {
+	/* amount of spacing and padding */
+	--spacing: 12px;
+	/* radius of round corners */
+	--roundness: 7.5px;
+
+	/* color of links */
+	--accent-1: hsl(355, 70%, 60%);
+	/* color of unread dividers and some indicators */
+	--accent-2: hsl(355, 70%, 50%);
+	/* color of accented buttons */
+	--accent-3: hsl(355, 70%, 40%);
+	/* color of accented buttons when hovered */
+	--accent-4: hsl(355, 70%, 30%);
+	/* color of accented buttons when clicked */
+	--accent-5: hsl(355, 70%, 20%);
+
+	/* color of mentions and messages that mention you */
+	--mention: rgba(25, 25, 25, 0.5);
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: rgba(35, 35, 35, 0.5);
+
+	/* color of bright text on colored buttons */
+	--text-1: hsl(0, 0%, 93%);
+	/* color of headings and important text */
+	--text-2: hsl(0, 0%, 77%);
+	/* color of normal text */
+	--text-3: hsl(0, 0%, 67%);
+	/* color of icon buttons and channels */
+	--text-4: hsl(180, 0%, 44%);
+	/* color of muted channels/chats and timestamps */
+	--text-5: hsl(240, 1%, 27%);
+
+	/* color of dark buttons when clicked */
+	--bg-1: rgb(35, 35, 35);
+	/* color of dark buttons */
+	--bg-2: rgb(25, 25, 25);
+	/* color of spacing around panels and secondary elements */
+	--bg-3: rgb(25, 25, 25);
+	/* main background color */
+	--bg-4: rgb(15, 15, 15);
+
+	/* color of channels and icon buttons when hovered */
+	--hover: rgba(35, 35, 35, 0.5);
+	/* color of channels and icon buttons when clicked or selected */
+	--active: rgba(35, 35, 35, 0.5);
+	/* color of messages when hovered */
+	--message-hover: rgba(35, 35, 35, 0.5);
+}
