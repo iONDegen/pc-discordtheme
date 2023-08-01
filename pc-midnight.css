@@ -334,6 +334,32 @@
 	transform: scale(1);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* couve imports */
 @import url("https://custom-avatar-hints.github.io/hints/app/database.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
@@ -1058,11 +1084,6 @@
   padding: 0;
 }
 
-:root .header-3OsQeK {
-  box-shadow: none;
-  padding: 25px;
-  border-radius: 8px;
-}
 :root .channelNotice-tO6Tus,
 :root .channelNotice-3DDmsB {
   box-shadow: none;
@@ -1152,10 +1173,6 @@
 :root .channelNotice-3DDmsB:hover .button-f2h6uQ {
   opacity: 1;
   pointer-events: all;
-}
-:root .clickable-vvKY2q .header-3OsQeK:hover,
-:root .selected-1GtAC5 .header-3OsQeK {
-  background: transparent;
 }
 :root .wrapper-1S43wv {
   padding: 0 22px;
