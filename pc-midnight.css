@@ -2764,7 +2764,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .modal-2RrUKJ {
   background: var(--bg-4);
   box-shadow: unset;
-  border-radius: 10px;
+  border-radius: 120px;
 }
 :root .root-1CAIjD form,
 :root .modal-2RrUKJ form {
@@ -3127,7 +3127,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .pictureInPictureWindow-3ms5Zy {
   z-index: 10000;
 }
-
+:root .pictureInPictureVideo-2puO2Q .container-ZMc96U {
+  width: 100%;
+}
 :root .content-1jQy2l:before,
 :root .divider-q3P9HC,
 :root .separator-12G2Op {
