@@ -17,6 +17,7 @@
 	--spacing: 12px;
 	/* radius of round corners */
 	--roundness: 7.5px;
+	--avatar-radius: 8px;
 
 	/* color of links */
 	--accent-1: hsl(355, 70%, 60%);
@@ -60,4 +61,30 @@
 	--active: rgba(35, 35, 35, 0.5);
 	/* color of messages when hovered */
 	--message-hover: rgba(35, 35, 35, 0.5);
+	/* Dark/Light vars */
+	/* Couve Import BGs */
+	--background-primary: #252a3e;
+	--background-secondary: #1e2337;
+	--background-secondary-alt: #1c2438;
+	--background-secondary-alt-alt: #1b1d31;
+	--background-tertiary: #060c24;
+  
+	--deprecated-store-bg: var(--background-primary);
+	--background-floating: var(--background-secondary);
+	--background-mobile-primary: var(--background-primary);
+	--activity-card-background: var(--background-secondary);
+	--input-background: var(--background-secondary);
+	--modal-background: var(--background-primary);
+  
+	--colortransparency: #0003;
+  
+	/* Cards */
+	--card: #212332;
+  
+	/* Other stuff */
+	--textcolor: #fff;
+	--epicshadow1: #fff3;
+  
+	/* Font */
+	--font-display: var(--font-primary) !important;
 }
