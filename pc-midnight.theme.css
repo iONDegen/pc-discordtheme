@@ -55,6 +55,8 @@
 	/* main background color */
 	--bg-4: rgb(15, 15, 15);
 
+	--bg-5: rgb(7.5, 7.5, 7.5);
+
 	/* color of channels and icon buttons when hovered */
 	--hover: rgba(35, 35, 35, 0.5);
 	/* color of channels and icon buttons when clicked or selected */

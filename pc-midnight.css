@@ -361,8 +361,6 @@
 
 
 /* couve imports */
-@import url("https://custom-avatar-hints.github.io/hints/app/database.css");
-@import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 :root .messagesWrapper-RpOMA3 {
   flex-direction: column;
@@ -749,7 +747,7 @@
   box-shadow: none;
 }
 :root .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
-  background-color: var(--background-tertiary);
+  background-color: var(--bg-5);
   border-radius: 3px;
 }
 :root .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly::after {
@@ -975,7 +973,7 @@
   z-index: 1;
   width: 90px;
   height: 100px;
-  background: linear-gradient(360deg, var(--background-tertiary), transparent);
+  background: linear-gradient(360deg, var(--bg-5), transparent);
   pointer-events: none;
 }
 :root .guilds-2JjMmN .scroller-3X7KbA {
@@ -1063,7 +1061,7 @@
 }
 :root .guilds-2JjMmN .mention-3XBnnZ {
   height: 100%;
-  background: linear-gradient(360deg, transparent, var(--background-tertiary));
+  background: linear-gradient(360deg, transparent, var(--bg-5));
   transition: color 0.2s;
   opacity: 1;
   text-transform: capitalize;
@@ -1307,7 +1305,7 @@
   background: transparent;
 }
 :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day {
-  border-color: var(--background-tertiary);
+  border-color: var(--bg-5);
 }
 :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:after, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:hover, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day:hover {
   background: var(--main-color);
@@ -1848,7 +1846,7 @@
 }
 :root .layer-86YKbF .sidebarRegion-1VBisG {
   flex: unset;
-  background: var(--background-tertiary);
+  background: var(--bg-5);
 }
 :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh {
   justify-content: flex-start;
@@ -2480,7 +2478,7 @@ body {
 }
 
 .withFrame-2dL45i {
-  background: var(--background-tertiary);
+  background: var(--bg-5);
   padding: 8px 16px;
   height: 24px;
   margin-top: unset;
@@ -2535,7 +2533,7 @@ body.maximized .winButtonClose-3Q8ZH5 + .winButtonMinMax-3RsPUg::before {
   z-index: 2;
   width: 30px;
   height: 30px;
-  border: solid var(--background-tertiary);
+  border: solid var(--bg-5);
   border-width: 5px 0 0 5px;
   border-radius: 15px 0 0 0;
   box-sizing: border-box;
@@ -2554,7 +2552,7 @@ body.maximized .winButtonClose-3Q8ZH5 + .winButtonMinMax-3RsPUg::before {
 html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 0 10px 0 var(--background-tertiary);
+  box-shadow: 0 0 10px 0 var(--bg-5);
   top: 10px;
   left: 10px;
   width: calc(100% - 20px);
@@ -2588,7 +2586,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   height: 32px;
   top: 0;
   left: 0;
-  background: linear-gradient(180deg, var(--background-tertiary), transparent);
+  background: linear-gradient(180deg, var(--bg-5), transparent);
 }
 
 :root *::-webkit-scrollbar {
@@ -2983,7 +2981,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   max-height: unset;
   animation: sidebarStatusTransalteX 0.5s ease, fade 0.4s ease;
   border-radius: 0;
-  background: var(--background-tertiary);
+  background: var(--bg-5);
   margin-right: 0;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92 {
@@ -3119,7 +3117,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   overflow: hidden;
 }
 :root .container-1ILvLB .header-2C89wJ {
-  background-color: var(--background-tertiary);
+  background-color: var(--bg-5);
 }
 :root .container-1ILvLB section {
   background-color: var(--bg-4);
@@ -3288,7 +3286,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   left: 359px !important;
 }
 :root #status-picker.menu-1QACrS #status-picker-custom-status + .layer-2BGhQ8 .submenu-1apzyU {
-  background: var(--background-tertiary);
+  background: var(--bg-5);
   border-radius: 0 8px 8px 0;
 }
 :root .gameActivityToggleAdded-Yd-YxC > div:last-child button:first-child {
@@ -3339,7 +3337,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   position: relative;
   left: 80px;
   width: calc(100% - 96px);
-  background-color: var(--background-tertiary);
+  background-color: var(--bg-5);
 }
 :root #channelTabs-container ~ .layers-OrUESM .guilds-2JjMmN {
   margin-top: -85px;
@@ -3400,7 +3398,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 	--bg-4: var(--bg-4);
 	--bg-2: var(--bg-4);
 	--bg-2-alt: var(--bg-4);
-	--background-tertiary: var(--bg-3);
+	--bg-5: var(--bg-3);
 	--black: var(--black-500);
 	--border-strong: hsl(var(--white-500-hsl) / 0.16);
 	--border-subtle: hsl(var(--white-500-hsl) / 0.08);
