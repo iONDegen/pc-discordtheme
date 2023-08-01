@@ -1613,81 +1613,227 @@
   height: 100%;
   box-sizing: border-box;
 }
-
-
-:root .layer-86YKbF {
-  transform: unset !important;
-}
-:root .layer-86YKbF.baseLayer-W6S8cY {
-  opacity: 1 !important;
-}
-:root .layer-86YKbF.baseLayer-W6S8cY.stop-animations {
-  transform: scale(1) !important;
-}
-:root .layer-86YKbF:not(.baseLayer-W6S8cY) {
-  margin-left: 90px;
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG {
-  flex: unset;
-  background: var(--bg-5);
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh {
-  justify-content: flex-start;
-  border-radius: 8px 0 0;
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN {
-  width: 240px;
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-1lrxIh .header-2F5_LB {
-  color: var(--textcolor);
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .bd-sidebar-header-label {
-  color: var(--textcolor);
-  padding: 0;
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-1lrxIh .header-2F5_LB,
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy,
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .bd-sidebar-header {
-  padding: 6px 30px;
-  border-radius: 0;
-}
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .socialLinks-3ywLUf {
-  justify-content: center;
-  display: flex;
+:root .userProfileModalInner-3dx9L9 {
+  width: 100%;
+  height: 100%;
   flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .info-3pQQBb {
-  padding-left: 30px;
+:root .userProfileModalInner-3dx9L9::before {
+  width: 100%;
+  height: 100%;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN,
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .flexChild-3PzYmX {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs {
+  z-index: 1;
+  border-radius: 8px 0 0 10px;
+  overflow: hidden;
+  width: calc(55% - 16px);
+  height: 100%;
+  margin-bottom: 0;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh::-webkit-scrollbar {
-  display: none;
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs header {
+  width: 100%;
+  height: 100%;
 }
-:root .layer-86YKbF .contentColumn-1C7as6,
-:root .layer-86YKbF .customColumn-2n-oKU {
-  max-width: 95%;
-  min-width: unset;
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .bannerSVGWrapper-2CLfzN {
+  min-width: unset !important;
+  min-height: unset !important;
+  width: 100%;
+  height: 100%;
 }
-:root .layer-86YKbF .toolsContainer-25FL6V {
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
   position: absolute;
-  right: 0px;
-}
-:root .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma:active {
-  transform: none;
-}
-:root .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma::before {
-  content: "";
-  position: fixed;
   top: 0;
   left: 0;
-  width: 90px;
+  width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: -1;
+  opacity: 0.6;
+  border-radius: 10px 0 0 10px;
+  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2862745098));
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2862745098));
 }
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .bannerSVGWrapper-2CLfzN > foreignObject {
+  mask: none;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .bannerSVGWrapper-2CLfzN[viewBox="0 0 600 106"] > foreignObject {
+  y: -350px;
+  height: 800px;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .bannerSVGWrapper-2CLfzN[viewBox="0 0 600 212"] > foreignObject {
+  y: -250px;
+  height: 700px;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB {
+  position: static;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA {
+  top: 16px;
+  left: 16px;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA circle,
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA rect[fill=black] {
+  display: none;
+}
+:root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .badgeList-2aoHPw {
+  position: absolute;
+  top: 65px;
+  left: -15px;
+  background-color: transparent;
+}
+:root .userProfileModalInner-3dx9L9 .relationshipButtons-3ByBpj {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  z-index: 1;
+}
+:root .userProfileModalInner-3dx9L9 .mask-1y0tyc foreignObject {
+  border-radius: calc(var(--avatar-radius) * 2.1) !important;
+}
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: calc(45% + 16px);
+  padding: 10px 20px;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+}
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2).activityProfile-1712BN {
+  right: unset;
+  bottom: -140px;
+  left: 5px;
+  width: 750px;
+  padding: 20px;
+}
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .customStatus-3qYNe4 {
+  margin-top: 0;
+}
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageActivityFeed-3zBude,
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageActivityFeedXbox-3gGXXV,
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageProfile-1TX9jP {
+  width: 40px;
+  height: 40px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg {
+  position: static;
+  width: calc(45% + 16px);
+  margin: 0;
+  overflow: visible;
+  background-color: var(--bg-4);
+  border-radius: 0;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px > div:first-child {
+  position: absolute;
+  top: 25px;
+  left: 153px;
+  z-index: 1;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px > div:first-child > span {
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px {
+  padding: 0;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .divider-1NpGam {
+  display: none;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .tabBarContainer-sCZC4w {
+  position: absolute;
+  bottom: 65px;
+  left: 5px;
+  z-index: 1;
+  border-bottom: unset;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .tabBarContainer-sCZC4w .tabBar-2hXqzU {
+  flex-direction: column;
+  gap: 15px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .tabBarContainer-sCZC4w .tabBar-2hXqzU .item-2GWPIy {
+  height: 20px;
+  border-bottom: unset;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .connectedAccounts-2R5M4w {
+  padding-bottom: 80px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .connectedAccounts-2R5M4w .connectedAccountContainer-3aLMHJ {
+  border: none;
+  border-radius: 8px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(20, 0fr);
+  gap: 10px;
+  padding-left: 8px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .listRow-2nO1T6 {
+  position: relative;
+  z-index: 1;
+  height: 44px;
+  margin: 0;
+  padding-left: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0274509804);
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .listRow-2nO1T6 .listAvatar-2bU5Uh {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  width: 62% !important;
+  height: 250% !important;
+  margin-right: 0;
+  border-radius: 0;
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7960784314));
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .listRow-2nO1T6 .listAvatar-2bU5Uh svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .listRow-2nO1T6 .listAvatar-2bU5Uh svg foreignObject {
+  width: 100%;
+  height: 100%;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .listRow-2nO1T6 .listAvatar-2bU5Uh svg rect {
+  display: none;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .empty-2zcusz {
+  grid-column: 1/3;
+  grid-row: 1/22;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .empty-2zcusz .emptyIconFriends-2LNxTX {
+  position: absolute;
+  z-index: -1;
+  width: 80%;
+  height: 80%;
+  margin-left: -10px;
+  opacity: 0.2;
+  background-size: 100%;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .listScroller-entkMk .activityProfileV2-1N7pee {
+  grid-column: 1/3;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .input-2g-os5 {
+  background-color: transparent;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg {
+  background-color: transparent;
+}
+
 :root .noticeRegion-qjyUVg {
   right: 0;
   max-width: 100%;
@@ -2323,7 +2469,6 @@ body.maximized .winButtonClose-3Q8ZH5 + .winButtonMinMax-3RsPUg::before {
 }
 .platform-win .layers-OrUESM,
 .platform-win .layers-1YQhyW,
-.platform-win .layers-OrUESM > .layer-86YKbF,
 .platform-win .container-1eFtFS {
   overflow: visible;
 }
