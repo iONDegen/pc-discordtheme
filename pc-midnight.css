@@ -1005,23 +1005,8 @@
 :root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD {
   width: 90px;
 }
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .expandedFolderBackground-1kSAf6 {
-  left: 21px;
-}
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .folderIconWrapper-1oRIZr {
-  transition: border-radius 200ms;
-}
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .folderIconWrapper-1oRIZr:hover {
-  border-radius: 12px;
-}
 :root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .wrapper-2PSQCG > svg > foreignObject {
   mask: none;
-}
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .wrapper-2PSQCG > svg > foreignObject .folder-241Joy {
-  background: transparent;
-}
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD.expanded .expandedFolderBackground-1kSAf6 {
-  background: var(--background-secondary);
 }
 :root .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {
   border-radius: 14px;
@@ -3374,9 +3359,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root #channelTabs-container ~ .layers-OrUESM .guilds-2JjMmN {
   margin-top: -85px;
-}
-:root ul[data-list-id=guildfoldersnav] {
-  margin-top: 12px;
 }
 
 .theme-dark {

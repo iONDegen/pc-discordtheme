@@ -62,9 +62,17 @@
 	/* color of messages when hovered */
 	--message-hover: rgba(35, 35, 35, 0.5);
 	/* Dark/Light vars */
-
+	
 	/* Couve Import BGs */
-
+	--deprecated-store-bg: var(--background-primary);
+	--background-floating: var(--background-secondary);
+	--background-mobile-primary: var(--background-primary);
+	--activity-card-background: var(--background-secondary);
+	--input-background: var(--background-secondary);
+	--modal-background: var(--background-primary);
+  
+	--colortransparency: #0003;
+  
 	/* Cards */
 	--card: #212332;
   
