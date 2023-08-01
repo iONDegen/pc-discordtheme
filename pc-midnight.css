@@ -548,6 +548,58 @@
 	display: none;
   }
 
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
+	width: 330px;
+	height: 100vh;
+	max-height: unset;
+	animation: sidebarStatusTransalteX 0.5s ease, fade 0.4s ease;
+	border-radius: 0;
+	background: var(--background-tertiary);
+	margin-right: 0;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92 {
+	max-height: 100vh;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92::before {
+	width: 100% !important;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userProfileInnerThemedNonPremium-2AJg-H {
+	background: transparent;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .pencilContainer-18TrEJ {
+	display: none;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
+	left: calc(50% - 35px);
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 > .copiableField-2DYmf7 {
+	padding-right: 0;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 > .copiableField-2DYmf7 > div:last-child {
+	display: none;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
+	top: 160px;
+	width: 330px;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account {
+	background-color: var(--background-secondary);
+	overflow: hidden;
+	margin-top: 20px;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ {
+	padding: 0 !important;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-status-picker,
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-set-custom-status,
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-switch-account,
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ [id=account-devmode-copy-id-265924886461939712] {
+	padding: 16px;
+  }
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_::-webkit-scrollbar {
+	display: none;
+  }
+
   :root .userProfileModalInner-3dx9L9 {
 	width: 100%;
 	height: 100%;
