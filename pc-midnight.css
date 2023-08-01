@@ -108,7 +108,7 @@
 
 /* create/join a server modal color fix */
 .layer-fP3xEz .theme-light {
-	--background-primary: var(
+	--bg-4: var(
 		--bg-3
 	); /* template buttons & create my own button */
 	--modal-background: var(--bg-4); /* general background of the modal */
@@ -218,7 +218,7 @@
 	content: '';
 	position: absolute;
 	margin-top: -48px;
-	background-color: var(--background-primary);
+	background-color: var(--bg-4);
 	width: 100%;
 	height: 48px;
 	border-radius: var(--roundness) var(--roundness) 0 0;
@@ -420,7 +420,7 @@
 }
 :root .messagesWrapper-RpOMA3 .cozy-VmLDNB.wrapper-30-Nkg .blockquoteContainer-3VtvI1 blockquote {
   padding: 12px;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 4px;
   width: 100%;
 }
@@ -437,7 +437,7 @@
 :root .wrapper-2vIMkT {
   border: none;
   box-shadow: none;
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .wrapper-2vIMkT:hover {
   box-shadow: none;
@@ -477,7 +477,7 @@
   position: static;
   margin: 5px 40px 0 40px;
   padding: 5px;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 7px;
   opacity: 1;
 }
@@ -499,7 +499,7 @@
   margin-bottom: 5px !important;
 }
 :root .divider-2rZFJK .content-3spvdd, :root .divider-2rZFJK#---new-messages-bar .unreadPill-3nEWYM {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   width: 100%;
   padding: 10px;
   text-align: center;
@@ -527,7 +527,7 @@
   left: unset;
   height: 40px;
   padding-bottom: 0;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 8px;
 }
 :root .jumpToPresentBar-1cEnH0 .barButtonAlt-TQoCdZ {
@@ -564,7 +564,7 @@
   pointer-events: all;
 }
 :root .navButtonActive-1EqC5l {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root #emoji-picker-tab-panel {
   border-radius: 8px 8px 0 0;
@@ -573,7 +573,7 @@
   box-shadow: none;
 }
 :root #emoji-picker-tab-panel .premiumPromo-1eKAIB {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   opacity: 1;
   animation: fade 0.3s ease, zoom 0.3s ease;
 }
@@ -582,11 +582,11 @@
 }
 :root #emoji-picker-tab-panel .container-1SX9VC,
 :root #emoji-picker-tab-panel .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root #emoji-picker-tab-panel .imageLoading-2uloYN {
   background-image: none !important;
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
   border-radius: 8px;
 }
 :root #emoji-picker-tab-panel .inspector-DFKXwB {
@@ -600,7 +600,7 @@
   background: transparent;
 }
 :root #emoji-picker-tab-panel .diversitySelectorOptions-3DhNYs {
-  background: var(--background-primary);
+  background: var(--bg-4);
   border: none;
 }
 :root #emoji-picker-tab-panel:not(.emojiPickerInExpressionPicker-2nOwH8) .inspector-DFKXwB {
@@ -611,10 +611,10 @@
   left: 48px;
   padding: 0 16px;
   max-width: unset;
-  background: linear-gradient(transparent, var(--background-secondary));
+  background: linear-gradient(transparent, var(--bg-2));
 }
 :root #emoji-picker-tab-panel .wrapper-22rqw6 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root #emoji-picker-tab-panel .wrapper-22rqw6 .scroller-2MALzE::-webkit-scrollbar {
   display: none;
@@ -632,7 +632,7 @@
 }
 :root .contentWrapper-3vHNP2 .header-2TLOnc .inner-2pOSmK {
   height: 34px;
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .contentWrapper-3vHNP2 .header-2TLOnc .inner-2pOSmK .iconLayout-3Bjizv {
   width: 30px;
@@ -642,16 +642,16 @@
   box-shadow: none;
 }
 :root #sticker-picker-tab-panel .container-1SX9VC {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root #sticker-picker-tab-panel .wrapper-22rqw6 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root #sticker-picker-tab-panel .wrapper-22rqw6 .scroller-2MALzE::-webkit-scrollbar {
   display: none;
 }
 :root .uploadModal-2ie9O_ {
-  background: var(--background-primary);
+  background: var(--bg-4);
   box-shadow: unset;
   width: 1000px;
   height: 400px;
@@ -677,7 +677,7 @@
   font-weight: 550;
 }
 :root .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ- {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
   background-size: 70px;
 }
 :root .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.video-L7uQxc {
@@ -743,7 +743,7 @@
   max-height: 215px;
 }
 :root .autocomplete-3NRXG8 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   bottom: calc(100% - 8px);
   border-radius: 8px 8px 0 0;
   box-shadow: none;
@@ -756,13 +756,13 @@
   content: none;
 }
 :root .autocomplete-3NRXG8 .selected-3H3-RC {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .autocomplete-3NRXG8 .contentTitle-3CylD3 {
   color: var(--textcolor);
 }
 :root .wrapperAudio-1Bzv_Z {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
   border-radius: 7px;
   padding: 0;
@@ -787,7 +787,7 @@
   max-width: unset !important;
   left: -50px;
   border-radius: 0;
-  border-color: var(--background-secondary-alt-alt);
+  border-color: var(--bg-2-alt-alt);
   position: relative;
   overflow: hidden;
 }
@@ -800,11 +800,11 @@
   right: 12px;
 }
 :root .theme-light .embedFull-1HGV2S {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
   border-color: var(--card);
 }
 :root .wrapper-1HIH0j {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 10px;
 }
 :root .wrapper-1HIH0j .header-3anOjb {
@@ -842,25 +842,25 @@
 }
 :root .spoilerText-27bIiA.hidden-3B-Rum,
 :root .spoilerText-27bIiA.hidden-3B-Rum:hover {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .embedSpotify-1rDvOE {
   border-radius: 5px;
 }
 :root .invite-3uuHYQ {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
 }
 :root .tile-2mmK5T {
   transform: translateZ(0);
   overflow: hidden;
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .tile-2mmK5T:hover {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
 }
 :root .tile-2mmK5T .invalidPoop--w1123 {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
   position: relative;
 }
 :root .tile-2mmK5T .invalidPoop--w1123::after {
@@ -902,7 +902,7 @@
   margin-top: 8px;
 }
 :root .attachment-1PZZB2 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
   border-radius: 7px;
 }
@@ -912,27 +912,27 @@
 }
 :root .scrollableContainer-15eg7h,
 :root .wrapper-2SplAX {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .scrollableContainer-15eg7h .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 :root .wrapper-2SplAX .lookFilled-yCfaCM.colorPrimary-2AuQVo {
   background-color: var(--main-color);
 }
 :root .container-3wLKDe {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .attachButtonPlus-3IYelE,
 :root .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
   fill: var(--main-color);
 }
 :root .form-3gdLxP:before {
-  background: linear-gradient(180deg, transparent 0, var(--background-primary));
+  background: linear-gradient(180deg, transparent 0, var(--bg-4));
 }
 :root .typing-2J1mQU {
   z-index: 0;
 }
 :root .message-G6O-Wv {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   box-shadow: none;
 }
 :root .reaction-2A2y9y {
@@ -940,21 +940,21 @@
 }
 :root .container-KM8BU6,
 :root .reactors-1VXca7 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .container-KM8BU6 .scroller-2GkvCq,
 :root .reactors-1VXca7 .scroller-2GkvCq {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .container-3wLKDe > .scrollerBase-1Pkza4 {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root .container-3wLKDe > .scrollerBase-1Pkza4 .tagsContainer-2bBw1x button,
 :root .container-3wLKDe > .scrollerBase-1Pkza4 .tagsContainer-2bBw1x .tag-19iIl1 {
-  background-color: var(--background-secondary-alt-alt);
+  background-color: var(--bg-2-alt-alt);
 }
 :root .container-3wLKDe > .scrollerBase-1Pkza4 .mainCard-3KBsBI {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .container-3wLKDe > .scrollerBase-1Pkza4::-webkit-scrollbar {
   display: none;
@@ -1023,7 +1023,7 @@
   background: var(--main-color);
 }
 :root .guilds-2JjMmN .scroller-3X7KbA .listItem-3SmSlK .wrapper-3kah-n .childWrapper-1j_1ub {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .guilds-2JjMmN .scroller-3X7KbA .listItem-3SmSlK defs g:last-child {
   display: none;
@@ -1091,7 +1091,7 @@
   background: transparent;
   margin: 15px;
   padding: 20px;
-  background: var(--background-primary);
+  background: var(--bg-4);
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -1129,7 +1129,7 @@
 :root .channelNotice-tO6Tus .message-3KLVy1 .btn-38SvSS:hover,
 :root .channelNotice-3DDmsB .message-3KLVy1 .btn-38SvSS,
 :root .channelNotice-3DDmsB .message-3KLVy1 .btn-38SvSS:hover {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
   margin: 0 auto;
   margin-top: 20px;
   z-index: 1;
@@ -1149,7 +1149,7 @@
 }
 :root .channelNotice-tO6Tus .button-f2h6uQ,
 :root .channelNotice-3DDmsB .button-f2h6uQ {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
   opacity: 0;
   pointer-events: none;
   transition: opacity 400ms;
@@ -1219,7 +1219,7 @@
 }
 
 :root .inner-2pOSmK {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .toolbar-3_r2xA > :last-child[href="https://support.discord.com"],
 :root .searchLearnMore-1gNL3A {
@@ -1246,7 +1246,7 @@
   right: 10px;
 }
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc) .search-39IXmY .searchBar-jGtisZ {
-  background: var(--background-primary);
+  background: var(--bg-4);
   width: 200px;
   height: 28px;
   padding: 2px 10px;
@@ -1260,14 +1260,14 @@
   color: var(--main-color);
 }
 :root .container-2McqkF {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
   box-shadow: none;
 }
 :root .container-2McqkF .queryContainer-ZunrLZ {
   border: none;
 }
 :root .container-2McqkF .queryContainer-ZunrLZ.focused-2FU0YH {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
 }
 :root .container-2McqkF .queryContainer-ZunrLZ .keybindShortcut-3zF1P9 {
   display: none;
@@ -1281,7 +1281,7 @@
   border-radius: 0;
 }
 :root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq.selected-rZcOL-, :root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq[aria-selected=true] {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq:after {
   display: none;
@@ -1316,7 +1316,7 @@
   background: var(--main-color);
 }
 :root .searchResultsWrap-5RVOkx {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   top: -48px;
   padding-top: 48px;
   width: 480px;
@@ -1325,7 +1325,7 @@
 :root .searchResultsWrap-5RVOkx .searchHeader-1r_ZSh {
   position: absolute;
   width: 100%;
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .searchResultsWrap-5RVOkx .scroller-3iiyhZ {
   padding: 0;
@@ -1344,7 +1344,7 @@
   border-radius: 10px;
 }
 :root .searchResultsWrap-5RVOkx .scroller-3iiyhZ .pageButton-uta6J3 {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root .searchResultsWrap-5RVOkx .scroller-3iiyhZ .pageButton-uta6J3.activeButton-2K2Fwx {
   background-color: var(--main-color);
@@ -1359,7 +1359,7 @@
   border-radius: 0;
 }
 :root .recentMentionsPopout-2bI1ZN .header-1w9Q93 {
-  background: linear-gradient(360deg, transparent, var(--background-secondary));
+  background: linear-gradient(360deg, transparent, var(--bg-2));
   position: absolute;
   top: 0;
   left: 0;
@@ -1370,7 +1370,7 @@
   margin: 0 auto;
 }
 :root .recentMentionsPopout-2bI1ZN .header-1w9Q93 .topPill-3DJJNV .tab-TRrPC8.active-1grPyy {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .recentMentionsPopout-2bI1ZN .header-1w9Q93 .secondary-2bzKEX {
   position: absolute;
@@ -1388,18 +1388,18 @@
 }
 :root .recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI .channelHeader-DFRX8q .tertiary-1e-lAP,
 :root .recentMentionsPopout-2bI1ZN .scrollerBase-1Pkza4 .channelHeader-DFRX8q .tertiary-1e-lAP {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .recentMentionsPopout-2bI1ZN .tutorial-Nb3Zz5 {
-  background: var(--background-primary);
+  background: var(--bg-4);
   margin-top: 66px;
 }
 :root .recentMentionsPopout-2bI1ZN .tutorialIcon-25VF3Q {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   color: #fff;
 }
 :root .recentMentionsPopout-2bI1ZN {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   box-shadow: var(--elevation-high);
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
@@ -1410,11 +1410,11 @@
   max-height: calc(100% - 84px) !important;
   height: 100%;
   box-shadow: unset;
-  background: var(--background-primary);
+  background: var(--bg-4);
   border-radius: 0;
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .header-1w9Q93 {
-  background: var(--background-primary);
+  background: var(--bg-4);
   text-align: center;
   box-shadow: none;
 }
@@ -1424,7 +1424,7 @@
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .messagesPopout-eVzQcI .messageGroupWrapper-1jf_7C {
   border: none;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   margin-bottom: 32px;
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .messagesPopout-eVzQcI::-webkit-scrollbar {
@@ -1433,7 +1433,7 @@
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .messagesPopout-eVzQcI::-webkit-scrollbar-thumb {
   border: none;
-  background: var(--background-secondary) !important;
+  background: var(--bg-2) !important;
   border-radius: 6px 0 0 6px;
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .messagesPopout-eVzQcI::-webkit-scrollbar-track-piece {
@@ -1459,7 +1459,7 @@
   display: none;
 }
 :root .loadingPopout-1feYe_ {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .userPopoutOuter-1OHwPL {
   max-height: unset !important;
@@ -1724,7 +1724,7 @@
   width: calc(45% + 16px);
   margin: 0;
   overflow: visible;
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
   border-radius: 0;
 }
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px > div:first-child {
@@ -1912,7 +1912,7 @@
   max-width: 100%;
 }
 :root .noticeRegion-qjyUVg .container-20TyK0 {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--bg-2) !important;
 }
 @media (max-width: 1465px) {
   :root .accountProfileCard-lbN7n- {
@@ -1947,7 +1947,7 @@
 }
 :root .accountProfileCard-lbN7n- {
   display: flex;
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN {
   min-height: 320px;
@@ -2047,14 +2047,14 @@
   border-radius: 8px;
 }
 :root .item-2idW98 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   transition: transform 200ms;
 }
 :root .item-2idW98:hover {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .accountList-305sx3 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .accountList-305sx3 .accountBtn-1YkMgV .accountBtnInner-3XK70s {
   background-color: transparent;
@@ -2122,7 +2122,7 @@
 }
 :root .paymentPane-ut5qKZ,
 :root .codeRedemptionRedirect-2hYMSQ {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
 }
 :root .paymentPane-ut5qKZ .paginator-1eqD2g,
@@ -2137,10 +2137,10 @@
 }
 :root .paymentPane-ut5qKZ .paymentRow-1HKOLu .expandedInfo-1W31i3,
 :root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu .expandedInfo-1W31i3 {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .micTest-2WlQj6 .previewOverlay-2reuWf {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
   border-radius: 7px;
 }
@@ -2148,10 +2148,10 @@
   border-radius: 10px;
 }
 :root .micTest-2WlQj6 .notches-2w7UZJ.gray-3wP137 {
-  color: var(--background-primary);
+  color: var(--bg-4);
 }
 :root .addGamePopout-2SKNIV {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   box-shadow: none;
 }
 :root .addGamePopout-2SKNIV .divider-3LgWDL {
@@ -2161,7 +2161,7 @@
   padding: 8px;
 }
 :root .gameNameInput-2wbDJ9:focus, :root .gameNameInput-2wbDJ9:hover {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
   border: none;
 }
 :root .notificationSettings-1U0JsJ {
@@ -2169,7 +2169,7 @@
 }
 :root .notificationSettings-1U0JsJ .wrapper-SdcMKg {
   border: none;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 20px;
 }
 :root .notificationSettings-1U0JsJ .wrapper-SdcMKg .option-1QI4c9 {
@@ -2210,15 +2210,15 @@
   max-width: unset;
 }
 :root .customColorPicker-C_jddW {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border: none;
   border-radius: 8px;
 }
 :root .customColorPicker-C_jddW .customColorPickerInputContainer-3q58yc .input-3O04eu {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .auditLog-1NVAY0 {
   border: none;
@@ -2227,7 +2227,7 @@
 }
 :root .auditLog-1NVAY0 .header-2pgFQm,
 :root .auditLog-1NVAY0 .changeDetails-1kMZqI {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .auditLog-1NVAY0 .divider-M3saWq {
   display: none;
@@ -2237,7 +2237,7 @@
   border-radius: 8px;
 }
 :root .directoryContainer-z-0pgp {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root .modal-1gWd9S .footer-1KGV6y,
 :root .container-2E0bff .footer-1KGV6y {
@@ -2245,7 +2245,7 @@
 }
 :root .editCircle-2uL_D3,
 :root .editCircle-ityklj {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .formFieldWrapper-2LV3S6 {
   border: none;
@@ -2254,17 +2254,17 @@
   z-index: unset;
 }
 :root .background-3xJH_4 {
-  color: var(--background-secondary);
+  color: var(--bg-2);
 }
 :root .tierInProgress-1vFUnw,
 :root .tierBody-1d3UiS,
 :root .tierHeaderLocked-30MLlO,
 :root .tierHeaderUnlocked-1OpOLf {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .overflowRolesPopout-1Puiuq,
 :root .overflowRolesPopoutArrow-2R7g3K {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   box-shadow: none;
 }
 
@@ -2322,7 +2322,7 @@
   width: unset;
 }
 :root .noChat-2UYgeE.wrapper-1gVUIN .border-2Vy6FN.speaking-7QZEkv {
-  box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 4.5px var(--background-secondary);
+  box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 4.5px var(--bg-2);
 }
 :root .noChat-2UYgeE.wrapper-1gVUIN .wrapper-3t3Yqv .button-f2h6uQ {
   border-radius: 50%;
@@ -2330,7 +2330,7 @@
 :root .noChat-2UYgeE.wrapper-1gVUIN .colorable-3rVGna.primaryDark-2UJt1G,
 :root .noChat-2UYgeE.wrapper-1gVUIN .participantsButton-1WBdFP,
 :root .noChat-2UYgeE.wrapper-1gVUIN .participantsButton-1WBdFP:hover {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .noChat-2UYgeE.wrapper-1gVUIN .css-1k9nrkn {
   background: transparent;
@@ -2344,17 +2344,17 @@
   top: 0;
   left: 0;
   width: calc(100% - 20px);
-  background: linear-gradient(180deg, var(--background-secondary), transparent);
+  background: linear-gradient(180deg, var(--bg-2), transparent);
   box-shadow: none;
 }
 :root .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  background: var(--background-primary);
+  background: var(--bg-4);
   border-radius: 20px;
   font-size: 10px;
   text-align: center;
 }
 :root .input-3r5zZY {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .privateChannels-oVe7HL > .scroller-WSmht3 {
   padding-top: 48px;
@@ -2374,13 +2374,13 @@
   border-radius: 0;
 }
 :root .container-2cd8Mz {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .container-2cd8Mz .actionButton-3-B2x- {
   background: transparent;
 }
 :root .container-2cd8Mz .actionButton-3-B2x-:hover {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .container-2cd8Mz .peopleColumn-1wMU14 ::-webkit-scrollbar {
   display: none;
@@ -2399,7 +2399,7 @@
   margin: 3px 0 10px 0;
 }
 :root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 15px 0 0 15px;
 }
 :root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq {
@@ -2417,7 +2417,7 @@
   background: transparent;
 }
 :root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq .wrapper-2RrXDg {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   margin: 16px;
   border-radius: 10px;
   border: none;
@@ -2439,39 +2439,39 @@
   color: #fff;
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   margin: 15px;
   border-radius: 10px;
   animation: callzoom 2s ease;
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .tile-2TcwiO {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .tile-2TcwiO .button-3Vyz67,
 :root .wrapper-1gVUIN:not(.video-3n15R6) .tile-2TcwiO .buttonColor-28DXIe {
   background-color: var(--main-color);
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .videoWrapper-3rtb_V {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .border-2BJQjd.speaking-3RWJBr {
-  box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 6px var(--background-secondary);
+  box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 6px var(--bg-2);
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .colorable-3rVGna.primaryDark-2UJt1G,
 :root .wrapper-1gVUIN:not(.video-3n15R6) .leftTrayIcon-3kMl25 {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .wrapper-1gVUIN:not(.video-3n15R6) .wrapper-3t3Yqv > .controlButton-2PMNom > svg > foreignObject {
   mask: none;
 }
 :root .quickSelectPopout-2F0PXw {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .applicationStore-2nk7Lo .container-ZMc96U {
   width: calc(100% - 240px);
   position: absolute;
   top: 0;
-  background: linear-gradient(180deg, var(--background-primary), transparent);
+  background: linear-gradient(180deg, var(--bg-4), transparent);
   z-index: 1;
 }
 
@@ -2595,7 +2595,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   width: 8px;
 }
 :root *::-webkit-scrollbar-thumb {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 20px;
 }
 :root *::-webkit-scrollbar-track-piece {
@@ -2613,10 +2613,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   background: var(--epicshadow1);
 }
 :root .pageWrapper-2PwDoS {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .pageWrapper-2PwDoS .search-25t1e9 .searchBox-31Zv9h {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .pageWrapper-2PwDoS .search-25t1e9 .searchBox-31Zv9h .input-3O04eu {
   color: white;
@@ -2631,7 +2631,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .pageWrapper-2PwDoS .card-2TuZPZ:hover, :root .pageWrapper-2PwDoS .card-2TuZPZ:hover .iconMask-2fMR98,
 :root .pageWrapper-2PwDoS .iconMask-2fMR98:hover,
 :root .pageWrapper-2PwDoS .iconMask-2fMR98:hover .iconMask-2fMR98 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .root-2zfUH6 {
   top: 40px;
@@ -2639,10 +2639,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   contain: unset;
 }
 :root .root-2zfUH6 .perksModal-CLcR1c {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .ctaBar-Nhk8yY {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 10px;
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .progressBar-20NUv9 {
@@ -2656,10 +2656,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .progressBar-20NUv9 .tierMarkerBackground-G8FoN4,
 :root .root-2zfUH6 .perksModal-CLcR1c .progressBar-20NUv9 .barBackground-unEPDT {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .progressBar-20NUv9 .tierMarkerInProgress-2Tdxjz {
-  background: var(--background-primary) !important;
+  background: var(--bg-4) !important;
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .carouselContainerVisible-bGCrdY {
   left: -15%;
@@ -2672,13 +2672,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   color: #fff;
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .carouselContainerVisible-bGCrdY .tierHeaderLocked-3ItHYn {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .carouselContainerVisible-bGCrdY .tierBody-3ju-rc {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .root-2zfUH6 .perksModal-CLcR1c .perk-19D_HN {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .root-2zfUH6 .closeWrapper-1aVqeP {
   padding-top: 72px;
@@ -2762,7 +2762,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .root-1CAIjD,
 :root .modal-2RrUKJ {
-  background: var(--background-primary);
+  background: var(--bg-4);
   box-shadow: unset;
   border-radius: 10px;
 }
@@ -2832,7 +2832,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .modal-2RrUKJ .card-1SdQ2-,
 :root .modal-2RrUKJ .item-2OyinQ {
   border: none;
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .root-1CAIjD .changeButton-3QdaoH,
 :root .modal-2RrUKJ .changeButton-3QdaoH {
@@ -2866,7 +2866,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   border: none;
 }
 :root .popout-1KHNAq .option-2eIyOn {
-  background: var(--background-secondary);
+  background: var(--bg-2);
 }
 :root .button-ejjZWC {
   border-radius: 8px;
@@ -2886,7 +2886,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   border-radius: 50%;
 }
 :root .bar-2H7Q9u {
-  background: var(--background-secondary-alt-alt);
+  background: var(--bg-2-alt-alt);
 }
 :root .bar-2H7Q9u .barFill-3RgCsY {
   background: var(--main-color);
@@ -2900,15 +2900,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .cardPrimaryEditable-2mz_3i,
 :root .cardPrimaryOutline-1ofwVz {
   border: none;
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-radius: 10px;
 }
 :root .card-3JmxsM::before {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
   border: none;
 }
 :root .default-1Tkeeg {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .input-3O04eu {
   border: none;
@@ -2946,13 +2946,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   background: rgba(255, 255, 255, 0.05) !important;
 }
 :root .styleFixed-2_NfVL {
-  background: var(--background-primary);
+  background: var(--bg-4);
   box-shadow: unset;
 }
 :root .styleFlexible-x0_sIC,
 :root .submenu-3ycVEH {
   overflow: hidden;
-  background: var(--background-secondary-alt);
+  background: var(--bg-2-alt);
   box-shadow: unset;
 }
 :root .submenuPaddingContainer-QgnL1r {
@@ -2961,7 +2961,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .button-1zW0-r,
 :root .button-1zW0-r:hover {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .item-5ApiZt {
   margin: 0;
@@ -3012,7 +3012,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   width: 330px;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
   overflow: hidden;
   margin-top: 20px;
 }
@@ -3048,24 +3048,24 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   border-radius: var(--avatar-radius);
 }
 :root .streamPreview-I7itZ6 {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   width: 330px;
 }
 :root .streamPreview-I7itZ6 .previewContainer-35LFgt {
-  background: var(--background-secondary);
+  background: var(--bg-2);
   height: 200px;
 }
 :root .tooltip-14MtrL {
-  background: var(--background-secondary-alt);
+  background: var(--bg-2-alt);
 }
 :root .tooltipPointer-sMBQqe {
-  border-top-color: var(--background-secondary-alt) !important;
+  border-top-color: var(--bg-2-alt) !important;
 }
 :root .modal-atz_3z .header-1ffhsl {
   box-shadow: none;
 }
 :root .modal-atz_3z .container-2oNtJn {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .modal-atz_3z .title-3hptVQ {
   margin: 8px;
@@ -3100,16 +3100,16 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
 :root .row--LCpto {
-  background-color: var(--background-secondary);
+  background-color: var(--bg-2);
 }
 :root .inviteButton-17ob8h {
   background-color: var(--main-color);
 }
 :root .contentWrapper-3oy4Xo {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .keyboardShortcutsModal-2CRmCm {
-  background: var(--background-primary);
+  background: var(--bg-4);
 }
 :root .keyboardShortcutsModal-2CRmCm .keybindShortcut-3zF1P9 span {
   background: var(--main-color);
@@ -3122,7 +3122,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   background-color: var(--background-tertiary);
 }
 :root .container-1ILvLB section {
-  background-color: var(--background-primary);
+  background-color: var(--bg-4);
 }
 :root .pictureInPictureWindow-3ms5Zy {
   z-index: 10000;
@@ -3243,13 +3243,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 @keyframes callzoom {
   from {
-    background: var(--background-primary);
+    background: var(--bg-4);
     margin: 0;
     border-radius: 0;
     opacity: 0;
   }
   to {
-    background: var(--background-secondary);
+    background: var(--bg-2);
     margin: 15px;
     border-radius: 10px;
     opacity: 1;
@@ -3325,7 +3325,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   margin-top: -48px;
   padding-top: 48px;
   max-height: calc(100% + 48px);
-  background: var(--background-secondary);
+  background: var(--bg-2);
   border-bottom-width: 0px;
 }
 :root .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header + div .membersWrap-3NUR2t {
@@ -3397,9 +3397,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 	--background-modifier-hover: var(--hover);
 	--background-modifier-selected: var(--active);
 	--background-nested-floating: blue;
-	--background-primary: var(--bg-4);
-	--background-secondary: var(--bg-4);
-	--background-secondary-alt: var(--bg-4);
+	--bg-4: var(--bg-4);
+	--bg-2: var(--bg-4);
+	--bg-2-alt: var(--bg-4);
 	--background-tertiary: var(--bg-3);
 	--black: var(--black-500);
 	--border-strong: hsl(var(--white-500-hsl) / 0.16);
