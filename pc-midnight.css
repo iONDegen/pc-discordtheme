@@ -883,10 +883,6 @@
 	background-color: transparent;
   }
 
-  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
-	left: calc(50% - 35px);
-  }
-
   :root .avatarWrapper-1B9FTW .avatarSpeaking-36V2PN {
 	border-radius: var(--avatar-radius);
   }
