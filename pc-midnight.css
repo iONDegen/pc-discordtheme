@@ -2745,7 +2745,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .sidebar-3K3Z4C .list-1AJFv_ .item-2GWPIy {
   padding: 6px 10px;
   margin-bottom: 6px;
-  border-radius: 25px;
+  border-radius: 7px;
 }
 :root #user-context-roles + .layer-2BGhQ8 .item-5ApiZt {
   flex-direction: row-reverse;
@@ -2754,7 +2754,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   margin: 0 8px 0 0;
 }
 :root #user-context-roles + .layer-2BGhQ8 .item-5ApiZt .roleRow-3HnunM {
-  border-radius: 25px;
+  border-radius: 7px;
 }
 :root #user-context-roles + .layer-2BGhQ8 .item-5ApiZt .roleRow-3HnunM .roleDot-2gCDg5 {
   filter: none;
@@ -2764,7 +2764,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .modal-2RrUKJ {
   background: var(--bg-4);
   box-shadow: unset;
-  border-radius: 120px;
+  border-radius: 10px;
 }
 :root .root-1CAIjD form,
 :root .modal-2RrUKJ form {
