@@ -837,9 +837,17 @@
 	border-radius: var(--avatar-radius);
   }
 
+  :root .mask-1y0tyc img {
+	border-radius: 0 !important;
+  }
+
   :root .mask-1y0tyc foreignObject {
 	mask: none !important;
 	border-radius: var(--avatar-radius) !important;
+  }
+
+  :root .mask-1y0tyc > svg > mask > :not(:first-child) {
+	display: none;
   }
 
 .theme-dark {
