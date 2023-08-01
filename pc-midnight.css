@@ -287,13 +287,12 @@
 	display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-	content: 'Project Cypher | Discord';
+	content: '';
 	display: block;
 	position: relative;
 	width: 200px;
 	height: 16px;
 	line-height: 16px;
-	font-family: "Poppins";
 	font-size: 11px;
 	font-weight: 300;
 	color: var(--text-5);
