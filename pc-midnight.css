@@ -1440,6 +1440,24 @@
   display: none;
 }
 
+:root .membersWrap-3NUR2t {
+  margin-top: -48px;
+  max-height: calc(100% + 48px);
+}
+:root .membersWrap-3NUR2t .members-3WRCEx {
+  padding-top: 48px;
+}
+:root .membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
+  margin: 0;
+}
+:root .membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
+  padding: 0 22px;
+  width: calc(100% - 22px);
+  border-radius: 0;
+}
+:root .membersWrap-3NUR2t .members-3WRCEx::-webkit-scrollbar {
+  display: none;
+}
 :root .loadingPopout-1feYe_ {
   background: var(--bg-2);
 }
@@ -3309,6 +3327,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   max-height: calc(100% + 48px);
   background: var(--bg-2);
   border-bottom-width: 0px;
+}
+:root .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header + div .membersWrap-3NUR2t {
+  margin-top: 0;
+  max-height: unset;
+}
+:root .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header + div .membersWrap-3NUR2t .members-3WRCEx {
+  padding-top: 0;
 }
 :root #channelTabs-container {
   position: relative;
