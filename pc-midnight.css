@@ -293,7 +293,7 @@
 	width: 200px;
 	height: 16px;
 	line-height: 16px;
-	font-family: var(--font-headline);
+	font-family: "Poppins";
 	font-size: 11px;
 	font-weight: 300;
 	color: var(--text-5);
@@ -1006,9 +1006,6 @@
 :root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD {
   width: 90px;
 }
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .expandedFolderBackground-1kSAf6 {
-  left: 21px;
-}
 :root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .folderIconWrapper-1oRIZr {
   transition: border-radius 200ms;
 }
@@ -1020,9 +1017,6 @@
 }
 :root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD .wrapper-2PSQCG > svg > foreignObject .folder-241Joy {
   background: transparent;
-}
-:root .guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD.expanded .expandedFolderBackground-1kSAf6 {
-  background: var(--background-secondary);
 }
 :root .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {
   border-radius: 14px;
