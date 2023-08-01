@@ -3127,9 +3127,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .pictureInPictureWindow-3ms5Zy {
   z-index: 10000;
 }
-:root .pictureInPictureVideo-2puO2Q .container-ZMc96U {
-  width: 100%;
-}
+
 :root .content-1jQy2l:before,
 :root .divider-q3P9HC,
 :root .separator-12G2Op {
