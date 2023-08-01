@@ -1259,62 +1259,7 @@
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc) .search-39IXmY .searchBar-jGtisZ .icon-18rqoe {
   color: var(--main-color);
 }
-:root .container-2McqkF {
-  background: var(--background-secondary-alt-alt);
-  box-shadow: none;
-}
-:root .container-2McqkF .queryContainer-ZunrLZ {
-  border: none;
-}
-:root .container-2McqkF .queryContainer-ZunrLZ.focused-2FU0YH {
-  background: var(--background-secondary-alt-alt);
-}
-:root .container-2McqkF .queryContainer-ZunrLZ .keybindShortcut-3zF1P9 {
-  display: none;
-}
-:root .container-2McqkF .resultsGroup-cfY57t::before {
-  display: none;
-}
-:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq {
-  padding: 0 20px;
-  margin: 0;
-  border-radius: 0;
-}
-:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq.selected-rZcOL-, :root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq[aria-selected=true] {
-  background: var(--background-secondary);
-}
-:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq:after {
-  display: none;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker {
-  background: transparent;
-  border-radius: 0;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__header {
-  background: transparent;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__header .react-datepicker__current-month {
-  border-bottom: none;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--next, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--previous {
-  border: none;
-  border-radius: 50%;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--next:hover, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--previous:hover {
-  background-color: var(--epicshadow1);
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker [class^=react-datepicker__day] {
-  background: transparent;
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day {
-  border-color: var(--background-tertiary);
-}
-:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:after, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:hover, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day:hover {
-  background: var(--main-color);
-}
-:root .container-2McqkF .datePickerHint-Ir4715 .hintValue-V9hd8l {
-  background: var(--main-color);
-}
+
 :root .searchResultsWrap-5RVOkx {
   background: var(--background-secondary);
   top: -48px;
