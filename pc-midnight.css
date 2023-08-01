@@ -338,8 +338,7 @@
 /* couve imports */
 @import url("https://custom-avatar-hints.github.io/hints/app/database.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
-@import url("https://nyri4.github.io/donators/donators.css");
-@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
 :root .messagesWrapper-RpOMA3 {
   flex-direction: column;
 }
@@ -694,7 +693,7 @@
   line-height: 350px;
   color: rgba(255, 255, 255, 0.4);
   font-size: 72px;
-  font-family: "Material Icons", sans-serif;
+  font-family: "Poppins", sans-serif;
   visibility: visible;
   border-radius: 19px;
 }
@@ -1106,7 +1105,7 @@
   color: var(--textcolor);
   z-index: 1;
   font-size: 24px;
-  font-family: "Material Icons", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: opacity 200ms;
 }
 :root .channelNotice-tO6Tus .message-3KLVy1,
