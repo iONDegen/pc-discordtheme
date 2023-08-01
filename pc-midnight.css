@@ -793,6 +793,55 @@
 	height: 120px;
   }
 
+  :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 {
+	top: 15px;
+	left: 50%;
+	margin-left: -40px;
+  }
+
+  :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 .imageUploaderIcon-2OHmFu {
+	display: none;
+  }
+
+  :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 .avatarUploaderInner-p38nm2 {
+	border: none;
+	border-radius: var(--avatar-radius);
+  }
+  :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 .imageUploaderIcon-2OHmFu {
+	display: none;
+  }
+  :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 .status-170GHg {
+	background-color: transparent;
+  }
+
+  :root .avatarUploaderInner-1Cp1oP {
+	border-radius: 16px;
+	box-shadow: none;
+  }
+
+  :root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded] .wrapper-3Un6-K {
+	position: fixed;
+	left: 29px;
+	bottom: 23px;
+	z-index: 1;
+  }
+  :root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded]:hover {
+	background-color: transparent;
+  }
+
+  :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
+	left: calc(50% - 35px);
+  }
+
+  :root .avatarWrapper-1B9FTW .avatarSpeaking-36V2PN {
+	border-radius: var(--avatar-radius);
+  }
+
+  :root .mask-1y0tyc foreignObject {
+	mask: none !important;
+	border-radius: var(--avatar-radius) !important;
+  }
+
 .theme-dark {
 	--activity-card-background: blue;
 	--android-navigation-bar-background: blue;
