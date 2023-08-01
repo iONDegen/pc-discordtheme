@@ -62,13 +62,13 @@
 	/* color of messages when hovered */
 	--message-hover: rgba(35, 35, 35, 0.5);
 	/* Dark/Light vars */
-	
+
 	/* Couve Import BGs */
-	--background-primary: #252a3e;
-	--background-secondary: #1e2337;
-	--background-secondary-alt: #1c2438;
-	--background-secondary-alt-alt: #1b1d31;
-	--background-tertiary: #060c24;
+	--background-primary: rgb(25, 25, 25);
+	--background-secondary: rgb(15, 15, 15);
+	--background-secondary-alt: rgb(25, 25, 25);
+	--background-secondary-alt-alt: rgb(25, 25, 25);
+	--background-tertiary: rgb(7, 7, 7);
   
 	--deprecated-store-bg: var(--background-primary);
 	--background-floating: var(--background-secondary);
