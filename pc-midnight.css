@@ -1259,7 +1259,62 @@
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc) .search-39IXmY .searchBar-jGtisZ .icon-18rqoe {
   color: var(--main-color);
 }
-
+:root .container-2McqkF {
+  background: var(--background-secondary-alt-alt);
+  box-shadow: none;
+}
+:root .container-2McqkF .queryContainer-ZunrLZ {
+  border: none;
+}
+:root .container-2McqkF .queryContainer-ZunrLZ.focused-2FU0YH {
+  background: var(--background-secondary-alt-alt);
+}
+:root .container-2McqkF .queryContainer-ZunrLZ .keybindShortcut-3zF1P9 {
+  display: none;
+}
+:root .container-2McqkF .resultsGroup-cfY57t::before {
+  display: none;
+}
+:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq {
+  padding: 0 20px;
+  margin: 0;
+  border-radius: 0;
+}
+:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq.selected-rZcOL-, :root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq[aria-selected=true] {
+  background: var(--background-secondary);
+}
+:root .container-2McqkF .resultsGroup-cfY57t .option-ayUoaq:after {
+  display: none;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker {
+  background: transparent;
+  border-radius: 0;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__header {
+  background: transparent;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__header .react-datepicker__current-month {
+  border-bottom: none;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--next, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--previous {
+  border: none;
+  border-radius: 50%;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--next:hover, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker__navigation--previous:hover {
+  background-color: var(--epicshadow1);
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker [class^=react-datepicker__day] {
+  background: transparent;
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day {
+  border-color: var(--background-tertiary);
+}
+:root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:after, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day--selected:hover, :root .container-2McqkF .calendarPicker-sDhzdi .react-datepicker .react-datepicker__day:hover {
+  background: var(--main-color);
+}
+:root .container-2McqkF .datePickerHint-Ir4715 .hintValue-V9hd8l {
+  background: var(--main-color);
+}
 :root .searchResultsWrap-5RVOkx {
   background: var(--background-secondary);
   top: -48px;
@@ -3041,30 +3096,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .modal-atz_3z .title-3hptVQ {
   display: none;
 }
-:root .container-1Lk8p7 {
-  background-color: var(--background-primary);
-  border-radius: 8px;
-  --background-primary: #252a3e;
-  --background-secondary: #1e2337;
-  --background-secondary-alt-alt: #1b1d31;
-  --header-primary: #d0d0d0;
-  --header-secondary: #fff;
-  --text-normal: #dcddde;
-  --text-muted: #dcddde;
-  --interactive-normal: #fff9f9;
-  --primary-400: #fff;
-}
-:root .container-1Lk8p7 .container-x8Y1ix {
-  border: none;
-  background-color: var(--background-modifier-hover);
-}
-:root .container-1Lk8p7 .input-3O04eu,
-:root .container-1Lk8p7 .input-m1-Y7Q {
-  background-color: var(--background-secondary);
-}
-:root .container-1Lk8p7 .button-ejjZWC.lookBlank-FgPMy6 {
-  color: var(--header-secondary);
-}
 :root .background-12kWdX,
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
@@ -3313,6 +3344,37 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root #channelTabs-container ~ .layers-OrUESM .guilds-2JjMmN {
   margin-top: -85px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .theme-dark {
 	--activity-card-background: blue;
