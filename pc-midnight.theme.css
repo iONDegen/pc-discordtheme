@@ -64,21 +64,7 @@
 	/* Dark/Light vars */
 
 	/* Couve Import BGs */
-	--background-primary: rgb(25, 25, 25);
-	--background-secondary: rgb(15, 15, 15);
-	--background-secondary-alt: rgb(25, 25, 25);
-	--background-secondary-alt-alt: rgb(25, 25, 25);
-	--background-tertiary: rgb(7, 7, 7);
-  
-	--deprecated-store-bg: var(--background-primary);
-	--background-floating: var(--background-secondary);
-	--background-mobile-primary: var(--background-primary);
-	--activity-card-background: var(--background-secondary);
-	--input-background: var(--background-secondary);
-	--modal-background: var(--background-primary);
-  
-	--colortransparency: #0003;
-  
+
 	/* Cards */
 	--card: #212332;
   
